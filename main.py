@@ -11,6 +11,7 @@ elif(sys.argv[1] == 1):
 	signal.off()
 
 while True:
+	pass
 	#now = time.localtime()
 	#if(now.tim_hour >= 19 or now.tim_hour < 1):
 	#	signal.off()
