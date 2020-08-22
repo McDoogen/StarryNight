@@ -15,7 +15,7 @@ print("Running")
 
 while True:
 	now = time.localtime()
-	if(now.tim_hour >= 19 or now.tim_hour < 1):
+	if(now.tm_hour >= 19 or now.tm_hour < 1):
 		signal.off()
 	else:
 		signal.on()
