@@ -4,10 +4,12 @@ import time, sys
 signal = DigitalOutputDevice(14)
 
 print("Running")
-
+print(sys.argv[1])
 if(sys.argv[1] == 0):
+	Print("Turn on")
 	signal.on()
 elif(sys.argv[1] == 1):
+	print("Turn off")
 	signal.off()
 
 while True:
