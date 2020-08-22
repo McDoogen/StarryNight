@@ -3,6 +3,7 @@ import time
 
 signal = DigitalOutputDevice(14)
 
+print("Running")
 
 while True:
 	now = time.localtime()
