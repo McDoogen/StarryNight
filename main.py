@@ -1,5 +1,6 @@
 from gpiozero import DigitalOutputDevice
-import time, sys
+import time
+#import sys
 
 signal = DigitalOutputDevice(14)
 
@@ -13,7 +14,6 @@ print("Running")
 #	signal.off()
 
 while True:
-	pass
 	now = time.localtime()
 	if(now.tim_hour >= 19 or now.tim_hour < 1):
 		signal.off()
